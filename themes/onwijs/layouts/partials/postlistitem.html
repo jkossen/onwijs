@@ -1,0 +1,25 @@
+<li>
+    <article>
+        <div class="column meta">
+            <h2><a href='{{ .RelPermalink }}'>{{ .Title  }}</a></h2>
+            <div class="subtitle">Posted <time datetime="{{ .Date.Format "2006-01-02 15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time></div>
+            <div class="authors">author(s):
+              <ul>
+                {{- range .Params.authors }}
+                    {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                        <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+                    {{ end }}
+                {{ end }}
+              </ul>
+            </div>
+            <div class="tags">
+                {{ partial "tags.html" .}}
+            </div>
+        </div>
+        <div class="column summary">
+            {{ .Page.Summary }}
+            <div class="more"><a href='{{ .RelPermalink }}'>→</a></div>
+        </div>
+        
+    </article>
+</li>

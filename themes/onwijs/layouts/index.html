@@ -1,0 +1,29 @@
+{{ template "partials/header.html" . }}
+<blockquote>
+    leer weten
+</blockquote>
+
+<h2>Lesmateriaal</h2>
+<h3>Programmeren</h3>
+<div>
+    <ul>
+        <li><a href="/programmeren/php-basis">PHP Basis</a>.
+            <p>
+            Lesmateriaal over het begin van programmeren: variabelen, datatypes, arrays, lussen, functies en meer.
+            Gericht op MBO-4 Applicatieontwikkelaar / Softwareontwikkelaar
+            </p>
+        </li>
+    </ul>
+</div>
+
+<h2>Blog</h2>
+<div class="postlist">
+    <ul>
+        {{ range where .Site.RegularPages "Section" "posts" }}
+        {{ partial "postlistitem.html" .}}
+        {{ end }}
+    </ul>
+</div>
+
+
+{{ template "partials/footer.html" . }}

@@ -1,0 +1,7 @@
+<div class="postlist">
+    <ul>
+        {{ range where .Site.RegularPages "Section" "posts" }}
+        {{ partial "postlistitem.html" .}}
+        {{ end }}
+    </ul>
+</div>

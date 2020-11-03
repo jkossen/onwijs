@@ -1,0 +1,32 @@
+baseURL: https://onwijs.maankat.nl
+disablePathToLower: true
+languageCode: nl-nl
+title: Onwijs
+theme: onwijs
+params:
+  Subtitle: lees, leer, doe, weet
+
+author:
+  name: "Jochem Kossen"
+
+taxonomies:
+  tag: tags
+  author: authors
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+    style: monokailight
+    tabWidth: 4
+  

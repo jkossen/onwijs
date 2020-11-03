@@ -1,0 +1,10 @@
+{{ template "partials/header.html" . }}
+
+<h1>Authors</h1>
+<ul>
+{{ range .Data.Pages }}
+  <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+{{ end }}
+</ul>
+
+{{ template "partials/footer.html" . }}

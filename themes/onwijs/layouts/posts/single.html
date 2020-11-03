@@ -1,0 +1,23 @@
+{{ template "partials/header.html" . }}
+
+<article>
+<h1>{{.Title}}</h1>
+<div class="subtitle">Posted <time>{{ .Date.Format "January 2, 2006" }}</time></div>
+<div class="authors">author(s):
+    <ul>
+    {{- range .Params.authors }}
+        {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+            <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+        {{ end }}
+    {{ end }}
+    </ul>
+</div>
+<div class="content">
+{{ .Content }}
+</div>
+<div class="tags">
+    {{ partial "tags.html" .}}
+</div>
+</article>
+
+{{ template "partials/footer.html" . }}

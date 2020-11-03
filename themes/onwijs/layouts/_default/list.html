@@ -1,0 +1,24 @@
+{{ template "partials/header.html" . }}
+
+<h1>{{ .Title }}</h1>
+<ul>
+    {{ range .Data.Pages }}
+    <li>
+      <article>
+        <div class="about">
+          <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h2>
+          <div class="subtitle">Posted <time datetime="{{ .Date.Format "2006-01-02 15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time></div>
+          <div class="tags">
+            {{ partial "tags.html" .}}
+          </div>
+        </div>
+        <div class="content">
+          {{ .Page.Summary }} <a href="{{ .Page.RelPermalink }}"><br>&raquo; lees meer</a>
+        </div>
+      </article>
+        
+    </li>
+    {{ end }}
+</ul>
+
+{{ template "partials/footer.html" . }}

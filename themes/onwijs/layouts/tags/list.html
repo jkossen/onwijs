@@ -1,0 +1,12 @@
+{{ template "partials/header.html" . }}
+
+<h1>Posts tagged <span class="tag">#{{ .Title }}</span></h1>
+<div class="postlist">
+  <ul>
+    {{ range .Data.Pages }}
+    {{ partial "postlistitem.html" .}}
+    {{ end }}
+  </ul>
+</div>
+
+{{ template "partials/footer.html" . }}
