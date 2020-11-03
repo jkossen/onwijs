@@ -5,19 +5,32 @@ tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaa
 authors:
   - Jochem Kossen
 ---
-[PHP Basis: index](../php-basis)
 
-### Inleiding
+## Onderdeel van
+Deze pagina is onderdeel van het **PHP basiskennis**
+onderwijsmateriaal.
+
+Voor een overzicht, ga naar **[PHP Basis: Overzicht](../php-basis)**.
+
+## Slides
+
+![For loop](php-basis-loop-1.png)
+
+### Downloads
+
+[[pdf](php-basis-loop.pdf)] [[pptx](php-basis-loop.pptx) (bronbestand)]
+
+## Beschrijving
 
 Met loops kun je herhalende acties uitvoeren. Je kunt bijvoorbeeld voor elk item in een lijst (bijvoorbeeld een array) met studenten hun voornaam op het scherm tonen.
 
 In PHP zijn drie soorten loops beschikbaar: for, foreach en while.
 
-foreach: door een array heen lopen
+Veel programmeertalen beschikken slechts over for en while.
 
-Let op: veel programmeertalen hebben geen foreach, en beschikken slechts over for en while.
 
-### Array met waarden:
+## foreach
+### Indexed array
 
 ```php
 $gereedschapskoffer = ['hamer', 'schroevendraaier', 'boormachine'];
@@ -27,7 +40,7 @@ foreach ($gereedschapskoffer as $item) {
 }
 ```
 
-### Array met keys en waarden:
+### Associative array 
 
 ```php
 $myArr = [
@@ -44,10 +57,9 @@ foreach ($myArr as $key => $value) {
 }
 ```
 
-In PHP Basis: Arrays kun je lezen dat arrays met waarden eigenlijk ook een key hebben. Wat zou er gebeuren als je een foreach met $key => $value gebruikt in combinatie met een array met "alleen" maar waarden? Probeer het eens!
+Wat zou er gebeuren als je een foreach met $key => $value gebruikt in combinatie met een indexed array? Probeer dat eens!
 
-
-### for
+## for
 
 tien maal 'Ik ga thuis oefenen met PHP' op het scherm tonen
 
@@ -57,7 +69,7 @@ for ($i = 0; $i < 10; $i++) {
 }
 ```
 
-### while
+## while
 
 zoek "Zeno" in een lijst met namen
 
