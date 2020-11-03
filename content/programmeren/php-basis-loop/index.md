@@ -91,3 +91,11 @@ if ($found) {
     echo "Ja, gevonden op positie " . $pos . "!\n";
 }
 ```
+
+## Externe documentatie
+
+De officiële documentatie mbt loops vind je op:
+
+* for: https://www.php.net/manual/en/control-structures.for.php
+* while: https://www.php.net/manual/en/control-structures.while.php
+* foreach: https://www.php.net/manual/en/control-structures.foreach.php
