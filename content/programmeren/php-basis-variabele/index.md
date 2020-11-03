@@ -14,19 +14,15 @@ Voor een overzicht, ga naar **[PHP Basis: Overzicht](../php-basis)**.
 
 ## Slides
 
-![PHP Variabelen in het RAM geheugen 1](php-basis-variabele-ram-1.png)
+![PHP Variabelen in het RAM geheugen 1](php-basis-variabele-1.png)
 
-![PHP Variabelen in het RAM geheugen 2](php-basis-variabele-ram-2.png)
+![PHP Variabelen in het RAM geheugen 2](php-basis-variabele-2.png)
 
-![RAM geheugen als apothekerskast](php-basis-variabele-ram-apothekerskast.png)
+![RAM geheugen als apothekerskast](php-basis-variabele-3.png)
 
 ### Downloads
 
-#### PHP Variabelen in het RAM geheugen 1 & 2
-[[pdf](php-basis-variabele-ram.pdf)] [[pptx](php-basis-variabele-ram.pptx) (bronbestand)]
-
-#### RAM geheugen als apothekerskast
-[[pdf](php-basis-variabele-ram-apothekerskast.pdf)][[pptx](php-basis-variabele-ram-apothekerskast.pptx) (bronbestand)]
+[[pdf](php-basis-variabele.pdf)] [[pptx](php-basis-variabele.pptx) (bronbestand)]
 
 ## Beschrijving
 
