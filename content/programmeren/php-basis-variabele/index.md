@@ -48,6 +48,3 @@ $city = "Groningen";
 De officiële PHP documentatie mbt variabelen vind je op:
 
 https://www.php.net/manual/en/language.variables.basics.php
-
-## Oefeningen
-Komt nog.
