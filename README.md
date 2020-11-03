@@ -7,7 +7,7 @@ https://onwijs.maankat.nl
 
 Alle inhoud van project Onwijs is gelicenseerd onder een Creative Commons
 Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland licentie. Voor meer
-informatie zie [/license](/license).
+informatie zie [content/license.md](content/license.md).
 
 ## Wil je bijdragen?
 
