@@ -32,10 +32,9 @@ De hoofdwebsite van Onwijs is ondergebracht bij [maankat](/).
 ## Missie, visie, normen en waarden
 
 ### Vrij en open
-De complete code en inhoud van deze website gaat gepubliceerd worden
-als Open Source project op GitHub. Voel je vrij om mee te helpen, ook
-als je geen docent bent. Wanneer dit gebeurd is volgt er een nieuwe
-blogpost met meer informatie.
+Op https://github.com/jkossen/onwijs vind je de complete code en inhoud
+van deze website. Voel je vrij om mee te helpen, ook als je geen docent
+bent. 
 
 ### Toegankelijk
 De site dient vrij toegankelijk voor iedereen te zijn. Zo is er geen
@@ -48,14 +47,16 @@ lesmateriaal advertenties staan, dan kost dat een bepaalde capaciteit
 om te leren. Net als andere elementen die niet direct te maken hebben
 met de leerstof.
 
-Het hoofddoel van deze site is dat mensen ervan kunnen leren. En dat
-kan het beste als de cognitieve belasting laag gehouden wordt. Dus
-geen advertenties tussen lesmateriaal, geen overbodige
-achtergrondafbeeldingen, een bescheiden maar duidelijk gebruik van
-kleur.
+Het hoofddoel van deze site is dat iedereen die dat wil ervan kan leren. En dat
+kan het beste als de cognitieve belasting laag gehouden wordt. Dus geen
+advertenties tussen lesmateriaal, geen overbodige achtergrondafbeeldingen, een
+bescheiden maar duidelijk gebruik van kleur, etcetera.
 
-Waar mogelijk gebruik maken van de Dual Coding Theory om stof beter
-vast te leggen in het geheugen van de lerende.
+Voor meer informatie en de gedachtengang erachter verwijs ik naar de Cognitive
+Load Theory.
+
+Daarnaast richt ik me op het gebruik van de Dual Coding Theory. Het combineren
+van visuals met tekst zorgt dat informatie sneller en beter blijft hangen.
 
 ### Tijdloos
 Voor de inhoud van het lesmateriaal wil ik me waar mogelijk richten op
@@ -71,9 +72,9 @@ gebruiken is, dan is dit binnen een jaar verouderd.
 
 ## Technisch
 De volledige website is gemaakt met een statische site generator
-([Hugo](https://gohugo.io/)). Dit zorgt ervoor dat de site weinig technische eisen heeft. Er
-hoeft alleen maar statische content geserveerd te worden. Daarbij
-maakt het het makkelijk om de website met alle inhoud als project bij
+([Hugo](https://gohugo.io/)). Dit zorgt ervoor dat de site weinig technische
+eisen heeft. Er hoeft alleen maar statische content geserveerd te worden.
+Daarbij maakt het het makkelijk om de website met alle inhoud als project bij
 Github te hosten.
 
 Wil je je eigen kopie hosten? Dat kan dus. Houd wel rekening met de
