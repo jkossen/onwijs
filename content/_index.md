@@ -10,8 +10,10 @@ Lesmateriaal over het begin van programmeren: variabelen, datatypes, arrays, lus
 Gericht op MBO-4 Applicatieontwikkelaar / Softwareontwikkelaar
 
 ## Bijdragen?
-Onwijs is een Open Source project. De inhoud van de complete site is te vinden
-op:
+Onwijs is een Open Source project dat is gelicenseerd onder een Creative Commons
+Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland licentie. Zie: [LICENTIE](/license)
+
+De inhoud van de complete site is te vinden op:
 
 https://github.com/jkossen/onwijs
 
