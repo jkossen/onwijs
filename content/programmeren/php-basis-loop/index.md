@@ -22,20 +22,25 @@ Voor een overzicht, ga naar **[PHP Basis: Overzicht](../php-basis)**.
 
 ## Beschrijving
 
-Met loops kun je herhalende acties uitvoeren. Je kunt bijvoorbeeld voor elk item in een lijst (bijvoorbeeld een array) met studenten hun voornaam op het scherm tonen.
+Stel je voor je hebt een CSV bestand met gegevens van 42 studenten. Voor een informatiesite van school wil je van elke student bepaalde gegevens uit dit bestand weergeven.
 
-In PHP zijn drie soorten loops beschikbaar: for, foreach en while.
+Je zou dezelfde code 42 maal kunnen kopiëren. Want voor elke student wil je dezelfde code uitvoeren. Maar code kopiëren is iets dat programmeurs niet graag doen. Je code wordt er lang, onoverzichtelijk en gevoelig voor fouten door.
 
-Veel programmeertalen beschikken slechts over for en while.
+Zou het niet handig zijn als er een instructie bestond die je zou kunnen gebruiken om bepaalde code uit te voeren voor elke regel van je bestand?
+
+Daar zijn **loops** voor bedacht. In PHP zijn drie soorten loops beschikbaar: for, foreach en while. Veel programmeertalen beschikken slechts over for en while.
+
+Loops werken door code opnieuw uit te voeren voor elk item in iteratieve variabelen (variabelen die meerdere gegevens kunnen bevatten). In PHP is dat meestal een **[array](../php-basis-array/)**.
+
 
 
 ## foreach
 ### Indexed array
 
 ```php
-$gereedschapskoffer = ['hamer', 'schroevendraaier', 'boormachine'];
+$toolkit = ['hammer', 'screwdriver', 'drill'];
 
-foreach ($gereedschapskoffer as $item) {
+foreach ($toolkit as $item) {
     echo "<li>" . $item . "</li>";
 }
 ```
@@ -57,7 +62,7 @@ foreach ($myArr as $key => $value) {
 }
 ```
 
-Wat zou er gebeuren als je een foreach met $key => $value gebruikt in combinatie met een indexed array? Probeer dat eens!
+Wat zou er gebeuren als je een foreach met $key => $value gebruikt in combinatie met een **indexed** array? Probeer dat eens!
 
 ## for
 
