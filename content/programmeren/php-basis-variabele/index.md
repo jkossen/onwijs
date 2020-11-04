@@ -14,9 +14,14 @@ Voor een overzicht, ga naar **[PHP Basis: Overzicht](../php-basis)**.
 
 ## Slides
 
+### Variabelen: schematisch
 ![PHP Variabelen in het RAM geheugen 1](php-basis-variabele-1.png)
 
+### Reeks blokken met naam en waarde
 ![PHP Variabelen in het RAM geheugen 2](php-basis-variabele-2.png)
+
+### Apothekerskast
+Een simpeler analogie voor variabelen en het RAM geheugen is wellicht de apothekerskast. Het RAM geheugen bestaat uit heel veel lades. Elke lade heeft een etiket met de **naam** van wat erin zit en de **inhoud** van de la. Wat op het etiket staat is de naam van de variabele. De inhoud is de **waarde** van de variabele. 
 
 ![RAM geheugen als apothekerskast](php-basis-variabele-3.png)
 
