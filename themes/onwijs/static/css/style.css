@@ -31,8 +31,8 @@
     --about-color: #808080;
     --bq-back-color: #404040;
     --bq-accent-color: #ffc000;
-    --table-back-color: #606060;
-    --th-back-color: #909090;
+    --table-back-color: inherit;
+    --th-back-color: #606060;
     --td-border-color: #d0d0d0;
     --subtitle-color: #808080;
     }
@@ -126,7 +126,6 @@ header a:visited {
     color: var(--heading-color);
 }
 
-
 blockquote {
     background: var(--bq-back-color);
     color: var(--bq-color);
@@ -191,10 +190,14 @@ h3 {
     font-size: 1.1em;
 }
 
+/* hugo's code syntax is generated in these tables */
 table.lntable {
-    background-color: inherit;
     font-size: 0.8em;
     line-height: 1.4em;
+}
+
+tr {
+    line-height: 2.5em;
 }
 
 .more {
@@ -269,6 +272,7 @@ ul {
 }
 
 table {
+    border-collapse: collapse;
     width: 100%;
 }
 
