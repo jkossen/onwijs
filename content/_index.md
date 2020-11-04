@@ -15,6 +15,9 @@ https://onwijs.maankat.nl
 Lesmateriaal over het begin van programmeren: variabelen, datatypes, arrays, lussen, functies en meer.
 Gericht op MBO-4 Applicatieontwikkelaar / Softwareontwikkelaar
 
+### Sjablonen
+Sjablonen (templates) die worden gebruikt voor het maken van het lesmateriaal kun je vinden op [templates](/templates).
+
 ## Bijdragen?
 Onwijs is een Open Source project dat is gelicenseerd onder een Creative Commons
 Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland licentie. Zie: [LICENTIE](/license)
