@@ -1,6 +1,9 @@
+---
+title: Licentie
+---
+
 [Terug](/)
 
-# Licentie
 Alle inhoud van project Onwijs is gelicenseerd onder een Creative Commons
 Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland licentie.
 
