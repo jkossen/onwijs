@@ -25,14 +25,14 @@
     --content-back-color: #202020;
     --link-color: #fafafa;
     --link-border-color: #ffc000;
-    --link-hover-color: #606060;
+    --link-hover-color: #757575;
     --tags-link-color: #808080;
     --heading-color: #efefef;
     --about-color: #808080;
     --bq-back-color: #404040;
     --bq-accent-color: #ffc000;
     --table-back-color: inherit;
-    --th-back-color: #606060;
+    --th-back-color: #404040;
     --td-border-color: #d0d0d0;
     --subtitle-color: #808080;
     }
@@ -278,6 +278,10 @@ body > nav ul li {
 
 body > nav ul li a:link, body > nav ul li a:visited {
     border-bottom-width: 0px;
+}
+
+body > nav ul li a:hover {
+    border-bottom: 2px solid var(--link-border-color);
 }
 
 main {
