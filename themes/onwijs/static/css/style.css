@@ -11,9 +11,9 @@
     --about-color: #606060;
     --bq-back-color: #efefef;
     --bq-accent-color: #ffc000;
-    --table-back-color: #efefef;
-    --th-back-color: #a0a0a0;
-    --td-border-color: #d0d0d0;
+    --table-back-color: #f5f5f5;
+    --th-back-color: #d5d5d5;
+    --td-border-color: #d5d5d5;
     --subtitle-color: #404040;
 }
 
@@ -190,14 +190,14 @@ h3 {
     font-size: 1.1em;
 }
 
+table {
+    line-height: 2.5em;
+}
+
 /* hugo's code syntax is generated in these tables */
 table.lntable {
     font-size: 0.8em;
     line-height: 1.4em;
-}
-
-tr {
-    line-height: 2.5em;
 }
 
 .more {
