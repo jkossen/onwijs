@@ -251,7 +251,8 @@ header {
 }
 
 body > nav {
-    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-transform: lowercase;
     width: 100%;
 }
@@ -275,8 +276,8 @@ body > nav ul li {
     text-align: center;
 }
 
-body > nav ul li a:link, nav ul li a:visited {
-    border-bottom: 0px;
+body > nav ul li a:link, body > nav ul li a:visited {
+    border-bottom-width: 0px;
 }
 
 main {
