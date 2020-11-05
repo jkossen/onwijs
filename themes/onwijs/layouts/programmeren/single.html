@@ -1,27 +1,29 @@
 {{ template "partials/header.html" . }}
 
 <article>
-<h1>{{.Title}}</h1>
-<div class="authors">author(s):
-    <ul>
-    {{- range .Params.authors }}
-        {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-            <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
-        {{ end }}
-    {{ end }}
-    </ul>
-</div>
+    <header>
+        <h1>{{.Title}}</h1>
+        <div class="authors">author(s):
+            <ul>
+            {{- range .Params.authors }}
+                {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                    <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+                {{ end }}
+            {{ end }}
+            </ul>
+        </div>
+    </header>
 
-<h2>Inhoudsopgave</h2>
-{{ .TableOfContents }}
+    <h2>Inhoudsopgave</h2>
+    {{ .TableOfContents }}
 
-<div class="content">
-{{ .Content }}
-</div>
+    {{ .Content }}
 
-<div class="tags">
-    {{ partial "tags.html" .}}
-</div>
+    <footer>
+        <div class="tags">
+            {{ partial "tags.html" .}}
+        </div>
+    </footer>
 </article>
 
 {{ template "partials/footer.html" . }}

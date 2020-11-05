@@ -58,15 +58,7 @@ body {
     color: var(--about-color);
 }
 
-div.container {
-    background-color: var(--content-back-color);
-}
-
-div.container.header {
-    background-color: var(--content-back-color);
-}
-
-header, main, footer {
+body > header, main, body > footer {
     background-color: var(--content-back-color);
 }
 
@@ -86,7 +78,7 @@ th {
     background-color: var(--th-back-color);
 }
 
-header h1 small, header h2 small {
+body > header h1 small, body > header h2 small {
     color: var(--link-color);
 }
 
@@ -121,8 +113,8 @@ a:hover {
 
 h2 > a:link,
 h2 > a:visited,
-header a:link,
-header a:visited {
+body > header a:link,
+body > header a:visited {
     color: var(--heading-color);
 }
 
@@ -159,21 +151,21 @@ body {
     word-spacing: 0.1em;
 }
 
-header, footer,
+body > header, body > footer,
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-footer {
+body > footer {
     font-family: monospace;
     font-size: 0.6em;
 }
 
-header h1, header h2 {
+body > header h1, body > header h2 {
     font-size: 2rem;
     font-weight: bold;
 }
-header h1 small, header h2 small {
+body > header h1 small, body > header h2 small {
     line-height: 100%;
     font-size: 0.4em;
     text-transform: uppercase;
@@ -232,7 +224,7 @@ body {
     min-height: 100vh;
 }
 
-main, header, body > nav, footer {
+main, body > header, body > nav, body > footer {
     padding-left: 25px;
     padding-right: 25px;
     max-width: 1100px;
@@ -240,7 +232,7 @@ main, header, body > nav, footer {
     width: 100%;
 }
 
-header {
+body > header {
     padding-top: 18px;
     padding-bottom: 5px;
 
@@ -290,7 +282,7 @@ main {
     flex-grow: 2;
 }
 
-footer {
+body > footer {
     margin-bottom: 50px;
     padding-top:20px;
     padding-bottom: 75px;
@@ -330,7 +322,7 @@ th {
     flex: 1;
 }
 
-header h1, header h2 {
+body > header h1, body > header h2 {
     padding-top: 0px;
     padding-bottom: 10px;
     display: inline;
@@ -389,20 +381,14 @@ ul.postlist {
     max-width:200px;
 }
 
-header h1 small, header h2 small {
-    max-width: 150px;
-    display: inline-block;
-    padding-left: 10px;
-}
-
 main article {
     margin: 0 auto;
     margin-top:50px;
     padding-left: 15px;
     padding-right: 15px;
 }
-main article .content {
-    margin-top: 25px;
+main article header {
+    margin-bottom: 25px;
 }
 
 iframe {
@@ -532,14 +518,13 @@ h2 > a:link, h2 > a:visited {
     border-bottom: none;
 }
 
-header a:link, header a:visited  {
+body > header a:link, body > header a:visited  {
     border-bottom: none;
 }
 
-main img, figure {
+main img, main > figure {
     text-align: center;
     max-width: 100%;
-
 }
 
 .categories li + li:before {
