@@ -291,7 +291,7 @@ body > footer {
     width: 100%;
 }
 
-li {
+article li {
     margin-left: 15px;
     padding-left: 10px;
 }
@@ -381,13 +381,13 @@ ul.postlist {
     max-width:200px;
 }
 
-main article {
+main > article {
     margin: 0 auto;
     margin-top:50px;
     padding-left: 15px;
     padding-right: 15px;
 }
-main article header {
+main > article header {
     margin-bottom: 25px;
 }
 
