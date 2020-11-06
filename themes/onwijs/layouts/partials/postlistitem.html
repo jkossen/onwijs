@@ -1,7 +1,7 @@
 <li>
     <article>
-        <div class="column meta">
-            <h2><a href='{{ .RelPermalink }}'>{{ .Title  }}</a></h2>
+        <header class="column">
+            <h1><a href='{{ .RelPermalink }}'>{{ .Title  }}</a></h1>
             <div class="subtitle">Posted <time datetime="{{ .Date.Format "2006-01-02 15:04:05" }}">{{ .Date.Format "January 2, 2006" }}</time></div>
             <div class="authors">author(s):
               <ul>
@@ -15,7 +15,7 @@
             <div class="tags">
                 {{ partial "tags.html" .}}
             </div>
-        </div>
+        </header>
         <div class="column summary">
             {{ .Page.Summary }}
             <div class="more"><a href='{{ .RelPermalink }}'>→</a></div>

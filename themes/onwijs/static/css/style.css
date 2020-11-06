@@ -436,7 +436,7 @@ div.gallery {
     list-style: none;
 }
 
-.postlist.meta {
+.postlist article header {
     flex-shrink: 0;
     flex-grow: 1;
 }
@@ -478,7 +478,7 @@ h1, h2 {
     margin-bottom: 25px;
 }
 
-.postlist h2 {
+.postlist h1 {
     margin-top: 0px;
 }
 
@@ -513,7 +513,7 @@ a:link, a:visited {
     border-bottom-style: solid;
 }
 
-h2 > a:link, h2 > a:visited {
+h1 > a:link, h1 > a:visited {
     text-decoration: none;
     border-bottom: none;
 }
