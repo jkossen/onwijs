@@ -22,11 +22,11 @@ $number = "01";
 echo $number;
 ```
 
-In het tweede geval herkent PHP de quotes ("). Een regel is in PHP dat Strings tussen quotes staan. Doe je dat, dan registreert PHP automatisch dat het datatype een String is.
+In het tweede geval herkent PHP de quotes ("). Een regel is in PHP dat Strings tussen quotes staan. Doe je dat, dan registreert PHP automatisch dat het **datatype** een String is.
 
 Als er een geheel getal zonder quotes staat, zoals 01 of 1 of 100 of 0002, dan ziet PHP dat als een integer. Voor een integer is 01 hetzelfde als 1.
 
-Zo heeft elke variabele een datatype. Wat je met de waarde van een variabele kunt doen wordt bepaald door het **datatype** van de variabele. Elke variabele heeft een datatype. Met een "Boolean" kun je bijvoorbeeld aangeven of iets waar of onwaar is.
+Zo heeft elke variabele een datatype. Wat je met de waarde van een variabele kunt doen wordt bepaald door het datatype van de variabele. Elke variabele heeft een datatype. Met een "Boolean" kun je bijvoorbeeld aangeven of iets waar of onwaar is.
 
 Wil je weten wat het datatype van je variabele is? Kijk eens naar de functie `gettype`.
 
