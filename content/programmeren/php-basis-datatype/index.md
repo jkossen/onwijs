@@ -5,7 +5,14 @@ tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaa
 authors:
   - Jochem Kossen
 ---
-[PHP Basis: index](../php-basis)
+
+## Onderdeel van
+Deze pagina is onderdeel van het **PHP basiskennis**
+onderwijsmateriaal.
+
+Voor een overzicht, ga naar **[PHP Basis: Overzicht](../php-basis)**.
+
+## Beschrijving
 
 Wat verwacht je dat onderstaande code op het scherm toont?
 ```php
@@ -30,7 +37,7 @@ Zo heeft elke variabele een datatype. Wat je met de waarde van een variabele kun
 
 Wil je weten wat het datatype van je variabele is? Kijk eens naar de functie `gettype`.
 
-De meest gebruikte datatypes:
+## Meest gebruikte datatypes
 
 |Datatype	|Gebruikt voor	|Voorbeeld|
 |-----------|---------------|---------|
@@ -39,6 +46,8 @@ De meest gebruikte datatypes:
 |Float      | Getal met decimalen | 4.234 |
 |Boolean    | Waar/onwaar   | true of false |
 |Array      | Lijst met meerdere waarden |	['zaandam', 'maastricht', 'leeuwarden'] |
+
+## Externe Documentatie
 
 De officiële documentatie mbt datatypes vind je op:
 

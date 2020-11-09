@@ -12,7 +12,6 @@ onderwijsmateriaal.
 
 Voor een overzicht, ga naar **[PHP Basis: Overzicht](../php-basis)**.
 
-
 ## Slides
 
 ![Arrays in PHP](./php-basis-array.png)

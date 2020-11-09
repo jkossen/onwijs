@@ -24,4 +24,5 @@ brengen.
 |[Datatypes](../php-basis-datatype)| bool, int, String, ...|
 |[Arrays](../php-basis-array) | lijsten met waarden|
 |[Loops](../php-basis-loop) | for, foreach, while|
+|[If statements](../php-basis-if) | if, elseif, else|
 
