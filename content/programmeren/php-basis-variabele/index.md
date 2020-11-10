@@ -1,7 +1,7 @@
 ---
 title: "PHP Basis: Variabele"
 date: 2020-09-27T21:04:58+02:00
-tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaar"]
+tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaar", "25604", "25187"]
 authors:
   - Jochem Kossen
 ---

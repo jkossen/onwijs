@@ -1,7 +1,7 @@
 ---
 title: "PHP Basis: Overzicht"
 date: 2020-09-27T21:04:58+02:00
-tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaar"]
+tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaar", "25604", "25187"]
 authors:
   - Jochem Kossen
 ---
@@ -48,5 +48,10 @@ PHP. Veel kennis is prima te gebruiken in andere talen.
             <code>if, elseif, else</code>
         </p>
     </span>
-    <span class="column"></span>
+    <span class="column">
+        <h3><a href="../php-basis-function">Functions</a></h3>
+        <p>
+            Een stuk code vaker aanroepen
+        </p>
+    </span>
 </div>

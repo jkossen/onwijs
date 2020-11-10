@@ -1,7 +1,7 @@
 ---
 title: "PHP Basis: if statement"
 date: 2020-11-09T14:00:58+02:00
-tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaar"]
+tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaar", "25604", "25187"]
 authors:
   - Jochem Kossen
 ---
