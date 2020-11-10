@@ -553,8 +553,19 @@ blockquote:before {
     vertical-align: -0.4em;
 }
 
+.flex-row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
 @media (max-width: 800px) {
     .postlist article {
+        flex-direction: column;
+    }
+    .flex-row {
         flex-direction: column;
     }
 }
