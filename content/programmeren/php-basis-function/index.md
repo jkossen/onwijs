@@ -15,19 +15,31 @@ Voor een overzicht, ga naar **[PHP Basis: Overzicht](../php-basis)**.
 ## Beschrijving
 
 Met een functie kun je een blok code schrijven dat je meermaals kunt
-aanroepen. Vaak hebben functies `input`, doen ze iets met die input,
-en geven ze het resultaat terug als de `output`.
+aanroepen (uitvoeren). Vaak hebben functies `input`, doen ze iets met
+die input, en geven ze het resultaat terug als de `output`.
+
+Deze uitleg gaat ervanuit dat je programmeert binnen **classes** zoals
+gebruikelijk is binnen het Laravel framework.
+
+Je hebt twee stukken code nodig voor een functie: de **definitie** en
+de **aanroep**. In de definitie schrijf je de code die je functie moet
+uitvoeren. Maar de functie wordt dan nog niet uitgevoerd. Het
+uitvoeren gebeurt pas bij de **aanroep**.
 
 ### Een voorbeeld
-
-**LET OP** De code gaat ervan uit dat je je functies in een Class
-schrijft. Doe je dat niet, laat dan het woord `public` weg.
 
 ```php
 public function sayHello()
 {
     echo "Hello!";
 }
+```
+
+Binnen een andere functie in je class kun je bovenstaande functie
+uitvoeren met de volgende code:
+
+```php
+$this->sayHello();
 ```
 
 ## Parameters
@@ -44,8 +56,17 @@ public function sayHello($name)
 }
 ```
 
-Meerdere parameters meegeven is mogelijk door ze te scheiden door een
-komma.
+Binnen een andere functie in je class kun je bovenstaande functie
+uitvoeren met de volgende code:
+
+```php
+$this->sayHello("Elliott");
+```
+
+## Probeer zelf
+
+Probeer zelf uit te vinden hoe je meerdere paramters mee kunt geven en
+gebruiken binnen je functie.
 
 ## Return
 
