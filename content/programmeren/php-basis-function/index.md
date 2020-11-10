@@ -39,7 +39,9 @@ Binnen een andere functie in je class kun je bovenstaande functie
 uitvoeren met de volgende code:
 
 ```php
+
 $this->sayHello();
+
 ```
 
 ## Parameters
@@ -60,7 +62,9 @@ Binnen een andere functie in je class kun je bovenstaande functie
 uitvoeren met de volgende code:
 
 ```php
+
 $this->sayHello("Elliott");
+
 ```
 
 ## Probeer zelf
