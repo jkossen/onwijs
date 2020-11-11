@@ -4,13 +4,8 @@ date: 2020-11-09T14:00:58+02:00
 tags: ["php", "programmeren", "softwaredeveloper", "mbo", "applicatieontwikkelaar", "25604", "25187"]
 authors:
   - Jochem Kossen
+overview: "../php-basis"
 ---
-
-## Onderdeel van
-Deze pagina is onderdeel van het **PHP basiskennis**
-onderwijsmateriaal.
-
-Voor een overzicht, ga naar **[PHP Basis: Overzicht](../php-basis)**.
 
 ## Slides
 
