@@ -553,6 +553,10 @@ blockquote:before {
     vertical-align: -0.4em;
 }
 
+.social img {
+    width: 32px;
+}
+
 .flex-row {
     display: flex;
 }

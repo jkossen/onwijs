@@ -55,3 +55,18 @@ PHP. Veel kennis is prima te gebruiken in andere talen.
         </p>
     </span>
 </div>
+
+<div class="flex-row">
+    <span class="column">
+        <h3><a href="../php-basis-operators-is">=, == of ===?</a></h3>
+        <p>Operators:
+            <code>=, == en ===</code>
+            en de omgekeerde:
+            <code>!= en !==</code>
+        </p>
+    </span>
+    <span class="column">
+    </span>
+    <span class="column">
+    </span>
+</div>
