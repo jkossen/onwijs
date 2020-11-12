@@ -9,17 +9,9 @@ overview: "../php-basis"
 
 ## Slides
 
-De waarde van appel komt niet overeen met die van kersen
+Gelijkwaardig versus identiek
+
 ![!=](php-basis-operators-is-1.png)
-
-De waarde van een appel 1 is gelijk aan die van appel 2
-![==](php-basis-operators-is-2.png)
-
-Appel 1 is niet identiek aan appel 2
-![!==](php-basis-operators-is-3.png)
-
-Appel 1 is wel identiek aan appel 1
-![===](php-basis-operators-is-4.png)
 
 ### Downloads
 
