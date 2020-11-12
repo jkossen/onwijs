@@ -15,6 +15,8 @@
     --th-back-color: #d5d5d5;
     --td-border-color: #d5d5d5;
     --subtitle-color: #404040;
+    --nav-border-color: #c0c0c0;
+    --footer-border-color: #c0c0c0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,6 +37,8 @@
     --th-back-color: #404040;
     --td-border-color: #d0d0d0;
     --subtitle-color: #808080;
+    --nav-border-color: #a0a0a0;
+    --footer-border-color: #a0a0a0;
     }
 }
 
@@ -247,6 +251,9 @@ body > nav {
     padding-bottom: 10px;
     text-transform: lowercase;
     width: 100%;
+    border-top: 1px solid var(--nav-border-color);
+    border-bottom: 1px solid var(--nav-border-color);
+    margin-top: 50px;
 }
 
 body > nav ul {
@@ -283,7 +290,9 @@ main {
 }
 
 body > footer {
+    border-top: 1px solid var(--footer-border-color);
     margin-bottom: 50px;
+    margin-top: 50px;
     padding-top:20px;
     padding-bottom: 75px;
     padding-right: 50px;
