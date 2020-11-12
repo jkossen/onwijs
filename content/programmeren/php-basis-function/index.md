@@ -7,6 +7,14 @@ authors:
 overview: "../php-basis"
 ---
 
+## Slides
+
+![function](php-basis-function-1.png)
+
+### Downloads
+
+[[pdf](php-basis-function.pdf)] [[pptx](php-basis-function.pptx) (bronbestand)]
+
 ## Beschrijving
 
 Met een functie kun je een blok code schrijven dat je meermaals kunt
