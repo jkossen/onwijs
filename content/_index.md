@@ -2,8 +2,14 @@
 title: "Home"
 ---
 
-## Net begonnen
-Onwijs is nog maar net begonnen. Daarom staat er nog geen uitgebreide verzameling lesmateriaal. Maar daar wordt aan gewerkt. Wil je meehelpen? Kijk dan bij [bijdragen](/contribute/)
+## Iedereen is onwijs
+
+Ben je student en wil zoek je (extra) lesmateriaal? Ben je docent en
+zoek je materiaal voor je lessen?
+
+Daar is **onwijs** voor. Er staat op dit moment nog geen uitgebreide
+verzameling lesmateriaal. Daar wordt aan gewerkt. En je kunt
+[meehelpen](/contribute/).
 
 ## Lesmateriaal
 ### Programmeren
