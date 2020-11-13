@@ -6,5 +6,5 @@ Op deze pagina kun je de templates / sjablonen downloaden die zijn gebruikt bij 
 
 |Bestand|Beschrijving|
 |-------|------------|
-|[onwijs_slide.potx](/downloads/templates/onwijs_slide.potx)|Powerpoint Slide sjabloon met raster<br>(elke cm een hulplijn)<br>kleur voor vormen #ffc000|
-|[onwijs_a4_staand.potx](/downloads/templates/onwijs_a4_staand.potx)|Powerpoint A4 staand formaat met raster <br>elke cm een hulplijn<br>kleur voor vormen #ffc000|
+|[onwijs_16x9_landscape.potx](/downloads/templates/onwijs_16x9_landscape.potx)|Powerpoint 16x9 slide sjabloon met raster<br>elke cm een hulplijn<br>kleur voor vormen #ffc000|
+|[onwijs_a4_portrait.potx](/downloads/templates/onwijs_a4_portrait.potx)|Powerpoint A4 staand formaat met raster<br>elke cm een hulplijn<br>kleur voor vormen #ffc000|
