@@ -9,7 +9,9 @@ overview: "../php-basis"
 
 ## Slides
 
-![Arrays in PHP](./php-basis-array.png)
+![Arrays in PHP 1](./php-basis-array-1.png)
+
+![Arrays in PHP 2](./php-basis-array-2.png)
 
 [[pdf](./php-basis-array.pdf)][[pptx](./php-basis-array.pptx) (bronbestand)]
 
