@@ -9,28 +9,36 @@ overview: "../php-basis"
 
 ## Beschrijving
 
-Wat verwacht je dat onderstaande code op het scherm toont?
 ```php
+// Wat denk jij dat onderstaande code op het scherm toont? 35? of 8?
+echo "3" + 5;
+
+// En deze code?
 $number = 01;
-
 echo $number;
-```
 
-En wat verwacht je bij onderstaande code?
-
-```php
+// Deze dan?
 $number = "01";
-
 echo $number;
 ```
 
-In het tweede geval herkent PHP de quotes ("). Een regel is in PHP dat Strings tussen quotes staan. Doe je dat, dan registreert PHP automatisch dat het **datatype** een String is.
+In het eerste geval proberen we 5 op te tellen bij de String "3". PHP
+gebruikt de `+` operator alleen om getallen op te tellen. Doordat we
+deze operator gebruiken zet PHP de String "3" automatisch om naar een
+integer, want kennelijk willen we getallen optellen. De uitkomst is
+dus 8.
 
-Als er een geheel getal zonder quotes staat, zoals 01 of 1 of 100 of 0002, dan ziet PHP dat als een integer. Voor een integer is 01 hetzelfde als 1.
+Als er een geheel getal zonder quotes staat, zoals 01 of 1 of 100 of
+0002, dan ziet PHP dat als een **integer**. Voor een integer is 01
+hetzelfde als 1.
 
-Zo heeft elke variabele een datatype. Wat je met de waarde van een variabele kunt doen wordt bepaald door het datatype van de variabele. Elke variabele heeft een datatype. Met een "Boolean" kun je bijvoorbeeld aangeven of iets waar of onwaar is.
+Zo heeft elke variabele een datatype. Wat je met de waarde van een
+variabele kunt doen wordt bepaald door het datatype van de
+variabele. Elke variabele heeft een datatype. Met een "Boolean" kun je
+bijvoorbeeld aangeven of iets waar of onwaar is.
 
-Wil je weten wat het datatype van je variabele is? Kijk eens naar de functie `gettype`.
+Wil je weten wat het datatype van je variabele is? Kijk eens naar de
+functie `gettype`.
 
 ## Meest gebruikte datatypes
 
