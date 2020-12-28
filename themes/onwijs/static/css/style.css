@@ -74,6 +74,14 @@ table.lntable {
     background-color: inherit;
 }
 
+table.lntable > tbody > tr > td:first-child pre.chroma {
+    background-color: #f0f0f0;
+}
+
+table.lntable > tbody > tr > td:nth-child(2) pre.chroma {
+    padding-left: 10px;
+}
+
 td {
     border-bottom-color: var(--td-border-color);
 }
