@@ -7,66 +7,28 @@ authors:
 ---
 
 ## Over deze reeks
-Deze reeks onderwijsmateriaal richt zich op de basiskennis van het
-programmeren. Hiervoor wordt gebruik gemaakt van de programmeertaal
-PHP. Veel kennis is prima te gebruiken in andere talen.
+Programmeren leer je alleen door het te doen. Deze reeks is opgedeeld in opeenvolgende levels met opdrachten om kennis van programmeren op te doen. Hoewel de opdrachten gericht zijn op PHP kun je de kennis bij vrijwel alle programmeertalen toepassen.
 
 ## Overzicht van onderwerpen
 
-<div class="flex-row">
-    <span class="column">
-        <h3><a href="../php-basis-variabele">Variabelen</a></h3>
-        <p>
-            <code>$city = "Rome"</code>
-        </p>
-    </span>
-    <span class="column">
-        <h3><a href="../php-basis-datatype">Datatypes</a></h3>
-        <p>
-            <code>bool, integer, String</code>
-        </p>
-    </span>
-    <span class="column">
-        <h3><a href="../php-basis-array">Arrays</a></h3>
-        <p>
-            Lijsten met waarden.
-        </p>
-        <p>Een array is een datatype dat meerdere waarden in een variabele kan opslaan</p>
-    </span>
-</div>
 
-<div class="flex-row">
-    <span class="column">
-        <h3><a href="../php-basis-loop">Loops</a></h3>
-        <p>
-            <code>for, foreach, while</code>
-        </p>
-    </span>
-    <span class="column">
-        <h3><a href="../php-basis-if">If statements</a></h3>
-        <p>
-            <code>if, elseif, else</code>
-        </p>
-    </span>
-    <span class="column">
-        <h3><a href="../php-basis-function">Functions</a></h3>
-        <p>
-            Een stuk code vaker aanroepen
-        </p>
-    </span>
-</div>
+1. [Variabelen](../php-basis-variabele/) \
+   Waarden in het geheugen van de computer opslaan en bewerken
+   
+2. [Datatypes](../php-basis-datatype/) \
+   integer, boolean, String en meer
+   
+3. [Arrays](../php-basis-array/) \
+   Een type variabele om een **lijst** met waarden op te slaan
+   
+4. [Loops](../php-basis-loop/) \
+   `for`, `foreach`, `while`
+   
+5. [`if`-statements](../php-basis-if/) \
+   `if`, `elseif`, `else`
 
-<div class="flex-row">
-    <span class="column">
-        <h3><a href="../php-basis-operators-is">=, == of ===?</a></h3>
-        <p>Operators:
-            <code>=, == en ===</code>
-            en de omgekeerde:
-            <code>!= en !==</code>
-        </p>
-    </span>
-    <span class="column">
-    </span>
-    <span class="column">
-    </span>
-</div>
+6. [operators: =, == en ===](../php-basis-operators-is/) \
+   is, is gelijk aan, is identiek aan
+
+6. [functions](../php-basis-function/) \
+   Zelf functies schrijven en aanroepen
