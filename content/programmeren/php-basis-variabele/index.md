@@ -16,7 +16,6 @@ overview: "../php-basis"
 ![PHP Variabelen in het RAM geheugen 2](php-basis-variabele-2.png)
 
 ### Apothekerskast
-Een simpeler analogie voor variabelen en het RAM geheugen is wellicht de apothekerskast. Het RAM geheugen bestaat uit heel veel lades. Elke lade heeft een etiket met de **naam** van wat erin zit en de **inhoud** van de la. Wat op het etiket staat is de naam van de variabele. De inhoud is de **waarde** van de variabele. 
 
 ![RAM geheugen als apothekerskast](php-basis-variabele-3.png)
 
@@ -25,16 +24,13 @@ Een simpeler analogie voor variabelen en het RAM geheugen is wellicht de apothek
 [[pdf](php-basis-variabele.pdf)] [[pptx](php-basis-variabele.pptx) (bronbestand)]
 
 ## Beschrijving
-
-Met variabelen kun je gegevens in het RAM geheugen opslaan en
-opvragen. Variabelen zorgen ervoor dat je het RAM geheugen kunt
-gebruiken als een soort apothekerskast. Elke la in de kast krijgt een
-naam en een inhoud (die noemen we "waarde").
+Met behulp van variabelen kun je gegevens in het RAM geheugen opslaan en opvragen. Je kunt variabelen en het RAM geheugen vergelijken met het gebruik van een apothekerskast. Elke lade heeft een label met de **naam** van wat erin zit. In de la zelf zit de **inhoud**. Variabelen hebben ook een naam en een inhoud. Bij variabelen noem je die inhoud de **waarde**. 
 
 ## Voorbeeld
 
+### Voorbeeld 1
 ```php
-// opslaan (in RAM)
+// sla 'Maastricht' op in de variabele $city
 $city = 'Maastricht';
     
 // op het scherm weergeven
@@ -44,7 +40,19 @@ echo $city;
 $city = "Groningen";
 ```
 
+### Voorbeeld 2
+```php
+$aantalStudenten = 28;
+
+// bereken iets vanuit de ene variabele en sla de uitkomst op
+// in de andere
+$aantalGroepen = $aantalStudenten / 4;
+
+echo $aantalGroepen
+```
+
 ## Externe documentatie
 De officiële PHP documentatie mbt variabelen vind je op:
 
 https://www.php.net/manual/en/language.variables.basics.php
+ 
