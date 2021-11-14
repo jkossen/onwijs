@@ -312,9 +312,17 @@ article li {
     padding-left: 10px;
 }
 
+article footer {
+    margin-top: 4rem;
+}
+
 ul {
     list-style: none;
     padding-bottom: 20px;
+}
+
+ol {
+    padding-left: 2rem;
 }
 
 table {
